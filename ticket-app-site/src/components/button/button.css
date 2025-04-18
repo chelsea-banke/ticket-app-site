@@ -3,3 +3,17 @@
     text-align: center;
     box-shadow: 5px 5px #000;
 }
+.red:hover {
+    background-color: #f0f0f0;
+    color: #000;
+}
+.white:hover {
+    background-color: #000;
+    color: #fff;
+    border-right: 2px solid white;
+    border-bottom: 2px solid white;
+}
+.button:active{
+    transform: translateX(2px) translateY(2px);
+    box-shadow: none;
+}

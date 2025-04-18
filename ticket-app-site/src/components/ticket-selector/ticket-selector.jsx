@@ -75,7 +75,7 @@ export const TicketSelector = ({className}) => {
                 {/* <button className="bg-red-600 text-white px-4 py-2 text-xs rounded hover:bg-red-700">
                     Réserver mon ticket
                 </button> */}
-                <Button style="2" text={'Réserver mon ticket'} className={'text-xs'} />
+                <Button style="white" text={'Réserver mon ticket'} className={'text-xs'} />
             </div>
         </div>
     );

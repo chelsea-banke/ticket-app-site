@@ -10,9 +10,9 @@ import {
 import { Logo } from "../logo/logo";
 import { Button } from "../button/button";
 
-export const Footer = () => {
+export const Footer = ({className}) => {
     return (
-        <footer className="section bg-white border-t pt-10">
+        <footer className={`section border-t pt-10 ${className}`}>
             <div className="text-sm text-gray-700">
                 {/* Logo and description */}
                 <div className="flex justify-between flex-wrap">
