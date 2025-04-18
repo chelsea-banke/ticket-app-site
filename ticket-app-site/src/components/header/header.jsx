@@ -14,10 +14,10 @@ export const Header = () => {
         <header className="section bg-white p-2 w-full border-b-2 border-gray-600 flex justify-between items-center py-4 sticky top-0 z-20">
             <Logo />
             <div className="hidden md:flex gap-4 mt-2 font-semibold">
-                <Link to={'/solutions'}>Nos Solutions</Link>
+                <Link to={'/'}>Nos Solutions</Link>
                 <Link to={'/events'}>Nos Envenements</Link>
-                <Link>Nos actualites</Link>
-            </div>
+                <Link to={'/news'} >Nos actualites</Link>
+            </div> 
             <div className="hidden md:flex gap-4 items-center">
                 <Button text={"Publish in environment"} />
                 <Button text={"Get connected"} style="white" />

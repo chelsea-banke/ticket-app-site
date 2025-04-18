@@ -28,7 +28,7 @@ export const EventsWithPagination = () => {
       <div className="md:p-6 mx-auto space-y-6">
         <div className="flex w-full justify-evenly flex-wrap md:gap-6 gap-y-6">
           {currentItems.map((event) => (
-            <EventCard key={event.id} event={event} />
+            <EventCard key={event.id} event={event} className={'border-white'} />
           ))}
         </div>
   

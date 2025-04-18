@@ -85,7 +85,7 @@ export const HomePage = () => {
                     <div className="font-semibold text-xl mt-5">Creer un compte sans engagement et rejoignez des milliers <br /> d'organisateurs convaincus</div>
                     <div className="md:flex block gap-8 justify-center ">
                         <Button text={'Publish Environment'} className={'mt-5 md:w-fit w-full'} />
-                        <Button text={'Publish Environment'} className={'mt-5 md:w-fit w-full'} style="2" />
+                        <Button text={'Publish Environment'} className={'mt-5 md:w-fit w-full'} style="white" />
                     </div>     
                 </div>
                 <TestimonialCarousel />

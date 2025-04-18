@@ -3,7 +3,7 @@ import { Header } from "../../components/header/header"
 import { EventCard } from "../../components/event-cards/event-card"
 import { Footer } from "../../components/footer/footer";
 
-const mockEvents = Array.from({ length: 8 }, (_, i) => ({
+export const mockEvents = Array.from({ length: 8 }, (_, i) => ({
 	id: i + 1,
 	title: "Concert Session d'as",
 	location: "Douala Bercy",
@@ -60,7 +60,7 @@ export const EventsPage = () => {
 			<section className="section text-center flex justify-between flex-wrap py-20 gap-8">
 				{mockEvents.map((event) => {
 					return(
-						<EventCard event={event} key={event.id} className={'border-gray-800'} />
+						<EventCard event={event} key={event.id} className={'border border-gray-800'} />
 					)
 				})}
 			</section>

@@ -1,7 +1,7 @@
 import { Button } from "../button/button.jsx";
 
 export const EventCard = ({ event, className }) => (
-    <div className={`border-2 border-white rounded flex flex-col items-center md:w-fit w-full ${className}`}>
+    <div className={`border-2 rounded flex flex-col items-center md:w-fit w-full ${className}`}>
         <div className="w-full h-40 bg-white" />
         <div className="p-4">
             <h3 className="text-xl font-semibold text-center">{event.title}</h3>
