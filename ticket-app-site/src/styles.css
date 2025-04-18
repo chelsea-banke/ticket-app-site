@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.section {
+    padding-left: 6rem /* 96px */;
+    padding-right: 6rem /* 96px */;
+}
+
+@media screen and (max-width: 1024px) {
+    .section {
+        padding-left: 2rem /* 32px */;
+        padding-right: 2rem /* 32px */;
+    }
+    
+}
