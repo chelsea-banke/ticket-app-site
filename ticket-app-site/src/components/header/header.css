@@ -1,0 +1,6 @@
+.link{
+    font-weight: bold;
+}
+.link:hover{
+    color: #ff0000;
+}

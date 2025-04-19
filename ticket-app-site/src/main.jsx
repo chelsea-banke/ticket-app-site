@@ -12,6 +12,8 @@ import { fas } from '@fortawesome/free-solid-svg-icons'
 import { far } from '@fortawesome/free-regular-svg-icons'
 import { EventsPage } from "./pages/events/events";
 import { NewsPage } from "./pages/news/news";
+import { LoginForm } from "./pages/login/login";
+import { OrganizerRegistrationForm } from "./pages/organizer-registration/organizer-registration";
 
 let router = createBrowserRouter([
   {
@@ -25,6 +27,14 @@ let router = createBrowserRouter([
   {
     path: '/news',
     Component: NewsPage
+  },
+  {
+    path: '/login',
+    Component: LoginForm
+  },
+  {
+    path: '/organizer-registration',
+    Component: OrganizerRegistrationForm
   }
 ]);
 
